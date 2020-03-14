@@ -7,7 +7,7 @@ public class Selenium {
    public static void main(String[] args) {
        System.setProperty("webdriver.chrome.driver","C:\\software\\Jenkins\\workspace\\chromedriver.exe");	// <-- Change this path
        WebDriver driver = new ChromeDriver();
-       String baseUrl = "https://experitest.com/free-trial/";
+       String baseUrl = "https://expe";
        String expectedTitle = "Free trial";
        String actualTitle = "";
        driver.get(baseUrl);
